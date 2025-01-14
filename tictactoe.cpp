@@ -12,7 +12,7 @@ int main(){
 	};
 	char player = 'X';
 	int turn, x, y;
-	cout << "welcome to tic tac toe gameeee!!!!!\n";
+	cout << "welcome to XO gameeee!!!!!\n";
 	for (turn = 0; turn < 9; turn++){
 	
 	while(true){
