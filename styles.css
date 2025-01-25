@@ -1,0 +1,75 @@
+/*styles.css*/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    margin: 0;
+    padding : 0;
+}
+h1 {
+    font size: 20pt;
+}
+h2 {
+    font-size: 20pt;
+}
+a {
+    color:brown;
+    text-decoration: none;
+}
+a:hover{
+    color:blanchedalmond;
+}
+/*class zarlah*/
+.name{
+    color:indigo;
+    font-size: 16pt;
+    text-decoration: rgb(8, 27, 198);
+}
+
+.description {
+    border: 1px solid brown;
+    padding: 10px 5px 20px 5px;
+    margin : 20px;
+}
+
+.table {
+    width : 300px;
+    background-color: rgb(119, 133, 198);
+}
+
+.table th ,td {
+    background-color: rgb(111, 163, 214);
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+div.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+div.header{
+    float: left;
+    border: 1px solid red;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+div.sidebar{
+    float: left;
+    width : 180px;
+    margin-right: 20px;
+    border: 1px solid slateblue;
+    min-height: 300px;
+    padding: 10px;
+
+
+}
+div.content{
+    float: right;
+    border: 1px solid black;
+    width: 72%;
+    text-decoration: center;
+
+}
